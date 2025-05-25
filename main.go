@@ -8,6 +8,7 @@ import (
 	kafka "github.com/IBM/sarama"
 )
 
+// a
 func main() {
 	config := kafka.NewConfig()
 	config.Producer.RequiredAcks = kafka.WaitForAll
